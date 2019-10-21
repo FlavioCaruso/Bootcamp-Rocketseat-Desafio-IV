@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-
 * {
   margin: 0;
   padding: 0;
@@ -41,11 +39,6 @@ nav #perfil {
   margin-left: 10px;
 }
 
-nav > span {
-  font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 nav > div {
   display: flex;
   align-items: center;
@@ -79,7 +72,7 @@ nav > div i {
   margin-left: 10px;
   display: flex;
   flex-direction: column;
-  font-size: 11px;
+  font-size: 12px;
   color: #9a9a9a;
   line-height: 14px;
 }
@@ -92,22 +85,23 @@ nav > div i {
 }
 
 .avatar {
-  min-height: 32px;
-  min-width: 32px;
-  height: 32px;
-  width: 32px;
+  min-height: 35px;
+  min-width: 35px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
 }
 
 .post-content {
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .divider {
-  width: 100%;
+  width: 90%;
   height: 1px;
   background: #eeeeee;
+  margin: 0 auto;
 }
 
 .post-comments {
